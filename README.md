@@ -1,7 +1,11 @@
 # Test-Web
 For Angular Work
-Good work Vinod will join our hands to make something to happen... :) !!!
 
-Branch TEST   
+GOOD JOB!!! SEEMS ALL TEST ARE DONE!!!
 
-test 2
+PROJECT UPLOADED FOR SAMPLE TEST.
+
+TRY CLONE THE PROJECT !!!! 
+
+
+open the cmd in working directory and then run  "npm install" then run "npm start"....
