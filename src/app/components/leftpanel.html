@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-xs-6 col-md-2" *ngFor="let studs of studentList">
+        <div *ngIf="studs.present">
+            <div>{studs.name}</div>
+            <div>{studs.age}</div>
+        </div>
+    </div>
+</div>
