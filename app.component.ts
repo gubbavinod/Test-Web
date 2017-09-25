@@ -9,10 +9,13 @@ export class AppComponent {
   title = 'app works!';
   public fname = 'vinod';
   public lname = 'kumar';
-  onclick(){
+  onclick(val: any){
     console.log("Button Clicked");
+    console.log(val.test);
+    
   }
   onsubmit(){
     console.log("submit Clicked");
   }
+  
 }
