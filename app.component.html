@@ -1,12 +1,14 @@
 <h1>{{title}}</h1>
 
     <div>
-            
-                First Name:<input type="text" [(ngModel)]="fname">
-                Last Name:<input type="text" [(ngModel)]="lname">
-                Full Name:{{fname}} {{lname}}
-                <button (click)=onclick()>Clike Me</button>
+            <form  #f="ngForm">
+                <div> 
+                Name:<input type="text" [(ngModel)]="fname" id="1" name="test">
+                Last Name:<input type="text" [(ngModel)]="lname" id="2" name="test2">
+                <button (click)=onclick(f.value)>Clike Me</button>
                 <input (click)=onsubmit() type="submit" value="Submit">
-        
+                </div>
+            </form>
+            Full Name:{{fname}} {{lname}}
     </div>
  
